@@ -1,0 +1,251 @@
+/* "Roboto", sans-serif*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,400;1,700&display=swap');
+
+/*
+Obrigatório
+*/
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+}
+img{
+	max-width: 100%;
+}
+/*
+Obrigatório 
+*/
+
+#topo{
+	background-color: #213e00 ;
+}
+
+h2,P{
+	color: white;
+}
+
+
+.dados{
+	width: 170px;
+	height: 170px;
+	background-color: white;
+	border-radius: 4px;
+	position: relative;
+	display: inline-block;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
+	border: none;
+	box-shadow: 0px 0px 25px 5px lightgray;
+}
+
+.pinta{
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	border-radius: 100%;
+	background-color: purple;
+	z-index: 1;
+}
+
+.p1{
+	top: 30px;
+	left: 30px;
+}
+
+.p2{
+	transform: translateY(-50%);
+	top: 50%;
+	left: 30px;
+}
+
+.p3{
+	bottom: 30px;
+	left: 30px;
+}
+
+.p4{
+	top: 30px;
+	right: 30px;
+}
+
+.p5{
+	transform: translateY(-50%);
+	top: 50%;
+	right: 30px;
+}
+
+.p6{
+	bottom: 30px;
+	right: 30px;
+}
+
+.p7{
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+.apresenta{
+	text-align: center;
+	position: absolute;
+    bottom: -2px;
+    left: -11px;
+
+}
+
+.box{
+	text-align: center;
+}
+
+.play{
+	background-color: #8BC34A;
+	height: 100vh;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.play h2{
+	margin-bottom: 35px;
+}
+
+.recomecar{
+	margin-top: 40px;
+	width: 150px;
+	height: 45px;
+	background-color: white;
+	color: black;
+	text-align: center;
+	font-size: 16px;
+	cursor: pointer;
+	border-radius: 3px;
+	border: 1px white;
+
+}
+
+.none{
+	display: none;
+}
+
+.red{
+	color: red;
+}
+
+.green{
+	color: green;
+}
+
+.progress{
+	width: 70%;
+    height: 30px;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+
+.historico{
+	color: white;
+}
+
+@keyframes titulo {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
+.titulo{
+	width: 100vw;
+	animation-name: titulo;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-delay: 0.5s;
+}
+
+.pos1 .p1,
+.pos1 .p2,
+.pos1 .p3,
+.pos1 .p4,
+.pos1 .p5,
+.pos1 .p6{
+	display: none;
+}
+
+.pos2 .p2,
+.pos2 .p3,
+.pos2 .p4,
+.pos2 .p5,
+.pos2 .p7{
+	display: none;
+}
+
+.pos3 .p2,
+.pos3 .p3,
+.pos3 .p4,
+.pos3 .p5{
+	display: none;
+}
+
+.pos4 .p2,
+.pos4 .p5,
+.pos4 .p7{
+	display: none;
+}
+
+.pos5 .p2,
+.pos5 .p5{
+	display: none;
+}
+
+.pos6 .p7{
+	display: none;
+}
+
+.none{
+	display: none;
+}
+
+
+/************ REGRA MINIMAS *******/
+
+/***** Ecras superiores a FULL HD - 1920px ****/
+@media only screen and (min-width: 1921px){
+
+}
+/***** Ecras FULL HD - 1920px ****/
+@media only screen and (max-width: 1920px){
+
+}
+/***** Ecras Portateis 15/16 pol - 1440px ****/
+@media only screen and (max-width: 1440px){
+
+}
+/***** Ecras Portateis 12/13 pol - 1280px ****/
+@media only screen and (max-width: 1280px){
+
+}
+/***** Ecras tablets grandes ou horizontais - 1024px ****/
+@media only screen and (max-width: 1024px){
+
+}
+/***** breackpoint principal bootstrap - 991px ****/
+@media only screen and (max-width: 991px){
+
+}
+/***** Ecras tablets - 768px ****/
+@media only screen and (max-width: 768px){
+
+}
+/***** Ecras smartphones - 480px ****/
+@media only screen and (max-width: 480px){
+
+}
+
+
+
+
+/************ REGRA MINIMAS *******/
+
+
+
